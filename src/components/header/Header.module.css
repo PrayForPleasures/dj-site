@@ -1,7 +1,7 @@
 .header {
 	width: 100%;
 	height: auto;
-	background: linear-gradient(45deg, whitesmoke, #222222 40%);
+	/* background: linear-gradient(45deg, whitesmoke, #222222 40%); */
 	padding: 2vh 2vw;
 }
 
@@ -15,6 +15,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
+	filter: hue-rotate(155deg);
 }
 
 .header__logo_img {
@@ -28,6 +29,11 @@
 	position: absolute;
 	text-align: center;
 	left: 60px;
+}
+
+.header__logo_text:hover {
+	transition: 0.3s ease-in;
+	transform: scale(1.1);
 }
 
 .header__list {

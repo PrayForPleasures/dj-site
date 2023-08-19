@@ -18,3 +18,9 @@ a {
 	max-width: 1200px;
 	margin: 0 auto;
 }
+
+.back_image {
+	background-image: url(./images/backimg.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
