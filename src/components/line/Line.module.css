@@ -1,0 +1,9 @@
+.line {
+	height: 8px;
+	background: linear-gradient(
+		0deg,
+		rgb(34, 34, 34) 30%,
+		rgb(245, 245, 245),
+		rgb(34, 34, 34) 70%
+	);
+}

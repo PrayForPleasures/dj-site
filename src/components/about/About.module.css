@@ -1,0 +1,41 @@
+.about {
+	background: linear-gradient(
+		180deg,
+		rgb(245, 245, 245),
+		rgb(34, 34, 34) 81%,
+		rgb(245, 245, 245) 100%
+	);
+	height: auto;
+	padding: 2vh 2vw;
+}
+
+.grid__parent {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.grid__item1 {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.grid__item2 {
+	grid-area: 2 / 5 / 3 / 6;
+}
+.grid__item3 {
+	grid-area: 3 / 1 / 4 / 2;
+}
+.grid__item4 {
+	grid-area: 4 / 5 / 5 / 6;
+}
+.grid__item_main {
+	grid-area: 2 / 3 / 4 / 4;
+}
+
+.grid__image {
+	height: 200px;
+}
+
+.grid__image_main {
+}
