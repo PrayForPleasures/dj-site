@@ -92,6 +92,7 @@
 	color: whitesmoke;
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
+	letter-spacing: 2px;
 }
 
 .header__list_item,
@@ -173,6 +174,10 @@
 	color: whitesmoke;
 	font-size: 16px;
 	margin-left: 8px;
+	font-weight: bold;
+	filter: blur(0.1px);
+	opacity: 0.9;
+	letter-spacing: 2px;
 }
 
 .list_box {

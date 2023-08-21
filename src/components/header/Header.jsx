@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../header/Header.module.css";
 import logo from "../../images/lo5.png";
 import vk from "../../images/vk.png";
