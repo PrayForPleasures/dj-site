@@ -6,11 +6,11 @@ import backImage from "./images/backimg.jpg";
 function App() {
 	return (
 		<div className="back_image">
-			<div className="container">
+			<div>
 				<Line></Line>
-				<Header></Header>
+				<Header className="container"></Header>
 				<Line></Line>
-				<About></About>
+				<About className="container"></About>
 			</div>
 		</div>
 	);
