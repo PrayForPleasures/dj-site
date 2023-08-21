@@ -25,20 +25,22 @@ function Header() {
 						<li className={styles.header__logo_list}></li>
 					</ul>
 				</a>
-				<ul className={styles.header__list}>
-					<li className={styles.header__list_item}>
-						<a href="#">About</a>
-					</li>
-					<li className={styles.header__list_item}>
-						<a href="#">Packages</a>
-					</li>
-					<li className={styles.header__list_item}>
-						<a href="#">Video</a>
-					</li>
-					<li className={styles.header__list_item}>
-						<a href="#">Contact</a>
-					</li>
-				</ul>
+				<nav>
+					<ul className={styles.header__list}>
+						<li className={styles.header__list_item}>
+							<Link to="/about">About</Link>
+						</li>
+						<li className={styles.header__list_item}>
+							<Link to="/packages">Packages</Link>
+						</li>
+						<li className={styles.header__list_item}>
+							<Link to="/video">Video</Link>
+						</li>
+						<li className={styles.header__list_item}>
+							<Link to="/contact">Contact</Link>
+						</li>
+					</ul>
+				</nav>
 			</div>
 			<div className={styles.subheader}>
 				<div className={styles.phone}>

@@ -8,8 +8,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path="header" element={<Header className="container" />}></Route>
-				<Route path="about" element={<About className="container" />}></Route>
+				<Route path="about" element={<About />}></Route>
 			</Routes>
 			<div className="back_image">
 				<div>
