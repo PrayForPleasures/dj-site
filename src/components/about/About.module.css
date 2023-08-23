@@ -68,6 +68,15 @@
 	transition: 0.3s ease-in-out;
 }
 
+.about__image_main:hover {
+	opacity: 1;
+}
+
 .audio__box {
 	display: flex;
+	flex-direction: column;
+}
+
+.audio__self {
+	margin-bottom: 8px;
 }

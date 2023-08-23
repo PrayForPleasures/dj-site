@@ -21,9 +21,24 @@ function About() {
 				</div>
 			</div>
 			<div className={styles.audio__box}>
-				<audio id="audio" src={song1} controls></audio>
-				<audio id="audio" src={song2} controls></audio>
-				<audio id="audio" src={song3} controls></audio>
+				<audio
+					className={styles.audio__self}
+					id="audio"
+					src={song1}
+					controls
+				></audio>
+				<audio
+					className={styles.audio__self}
+					id="audio"
+					src={song2}
+					controls
+				></audio>
+				<audio
+					className={styles.audio__self}
+					id="audio"
+					src={song3}
+					controls
+				></audio>
 			</div>
 		</div>
 	);
