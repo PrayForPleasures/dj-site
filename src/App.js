@@ -9,14 +9,15 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="about" element={<About />}></Route>
+				<Route path="packages" element={<About />}></Route>
+				<Route path="video" element={<About />}></Route>
+				<Route path="contact" element={<About />}></Route>
 			</Routes>
 			<div className="back_image">
-				<div>
-					<Line></Line>
-					<Header className="container" />
-					<Line></Line>
-					<About className="container" />
-				</div>
+				<Line></Line>
+				<Header className="container" />
+				<Line></Line>
+				<About className="container" />
 			</div>
 		</BrowserRouter>
 	);

@@ -3,6 +3,10 @@
 	height: auto;
 	/* background: linear-gradient(45deg, whitesmoke, #222222 40%); */
 	padding: 2vh 2vw 0 2vw;
+
+	@media screen and (max-width: 1024px) {
+		padding: 1.5vh 2vw 0 2vw;
+	}
 }
 
 .header_box {
@@ -20,6 +24,10 @@
 
 .header__logo_img {
 	height: 100px;
+
+	@media screen and (max-width: 1024px) {
+		height: 80px;
+	}
 }
 
 .header__logo_text {
@@ -28,13 +36,21 @@
 	white-space: nowrap;
 	color: whitesmoke;
 	left: 200px;
+
+	@media screen and (max-width: 1024px) {
+		left: 180px;
+	}
 }
 
 .header__logo_text .header__logo_list {
 	display: inline-block;
-	font-size: 24px;
+	font-size: 20px;
 	margin: 0 10px;
 	animation: animate 4s infinite linear;
+
+	@media screen and (max-width: 1024px) {
+		font-size: 18px;
+	}
 }
 
 .header__logo_text .header__logo_list:nth-of-type(1) {
@@ -93,6 +109,10 @@
 	cursor: pointer;
 	transition: 0.3s ease-in-out;
 	letter-spacing: 2px;
+
+	@media screen and (max-width: 1024px) {
+		margin-left: 24px;
+	}
 }
 
 .header__list_item,
@@ -164,10 +184,15 @@
 .phone {
 	display: flex;
 	align-items: center;
+	margin-left: 8px;
 }
 
 .phone__icon {
 	width: 16px;
+
+	@media screen and (max-width: 1024px) {
+		width: 14px;
+	}
 }
 
 .phone__number {
@@ -178,6 +203,10 @@
 	filter: blur(0.1px);
 	opacity: 0.9;
 	letter-spacing: 2px;
+
+	@media screen and (max-width: 1024px) {
+		font-size: 14px;
+	}
 }
 
 .list_box {
@@ -185,6 +214,10 @@
 
 .subheader__link_img {
 	height: 40px;
+
+	@media screen and (max-width: 1024px) {
+		height: 32px;
+	}
 }
 
 .subheader__list {
