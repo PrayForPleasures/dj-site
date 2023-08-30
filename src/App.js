@@ -33,7 +33,6 @@ function App() {
 
 			<div className="back_image2">
 				<Line></Line>
-				<About className="container" />
 			</div>
 		</BrowserRouter>
 	);
