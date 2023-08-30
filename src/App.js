@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Line from "./components/line/Line";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Line></Line>
 				<About className="container" />
 				<Line></Line>
+				<Footer></Footer>
 			</div>
 			<div className="pulse_animation_box">
 				<div className="pulse_animation">
