@@ -92,17 +92,30 @@
 .audio__p {
 	text-align: center;
 	color: whitesmoke;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		#222222 20%,
+		#222222 80%,
+		transparent
+	);
 	font-size: 18px;
 	font-weight: bold;
-	background-color: #222222;
-	padding: 0 4px;
-	margin: 8px 0;
+	padding: 2px 20px;
+	margin: 8px 0 0 0;
 	border: 0px solid whitesmoke;
-	border-radius: 20px;
 }
 
 .audio__self {
 	margin-bottom: 8px;
+	padding: 2px 28px;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		whitesmoke 8%,
+		whitesmoke 92%,
+		transparent
+	);
 }
 
 .audio__image {
